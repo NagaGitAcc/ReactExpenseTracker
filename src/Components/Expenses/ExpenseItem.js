@@ -6,7 +6,6 @@ import './ExpenseItem.css';
 
 function ExpenseItem({ expense }) {
   const [title, setTitle] = useState(expense.title);
-  console.log("This much time component is rendered")
 
   const clickHandler = () => {
     setTitle('Updated');
